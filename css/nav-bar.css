@@ -1,0 +1,60 @@
+.nav-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.nav-float-container::after{
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+.nav-float-left{
+    float: left;
+}
+.nav-float-right{
+    float: right;
+}
+nav ul {
+    display: inline-block;
+}
+nav ul > li{
+    display: inline-block;
+}
+
+.nav-bars-container {
+    width: 100%;
+}
+
+/* Black nav bar */
+.nav-black {
+    background-color: black;
+    max-height: 32px;
+    line-height: 32px;
+}
+/* White nav bar */
+.nav-white {
+    line-height: 1.5;
+}
+
+.nav-white-right-flex{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.nav-search-icon {
+    display: inline-block;
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
+    background-size: 1296px 1296px;
+    background-position: -848px -848px;
+    width: 16px;
+    height: 16px;
+}
+
+.nav-toggle span {
+    background-color: #f42;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 4px;    
+}
