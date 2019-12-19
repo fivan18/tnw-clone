@@ -1,3 +1,9 @@
 ul {
     list-style-type: none;
 }
+body {
+    background-color: rgb(255, 251, 251);
+}
+a {
+    text-decoration: none;   
+}

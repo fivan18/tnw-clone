@@ -3,6 +3,10 @@
     flex-flow: row nowrap;
 
 }
+.nav-center {
+    justify-content: center;
+    align-items: center;
+}
 .nav-float-container::after{
     content: "."; 
     visibility: hidden; 
@@ -36,6 +40,7 @@ nav ul > li{
 /* White nav bar */
 .nav-white {
     line-height: 1.5;
+    background-color: white;
 }
 
 .nav-white-right-flex{
@@ -70,5 +75,41 @@ nav ul > li{
     height: 48px;
 }
 .nav-logo-1, .nav-logo-2 {
-    background-color: red;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+}
+.nav-size-icons {
+    width: 48px;
+    height: 48px;
+    border-left: 1px solid #eee;
+}
+.nav-black > ul:first-child > li:first-child {
+    margin-left: 30px;
+}
+.nav-black > ul:first-child > li:first-child a {
+    color: white;
+}
+.nav-black > ul:last-child > li:last-child {
+    margin-right: 20px;
+}
+.nav-black li {
+    margin-left: 10px;
+}
+.nav-black a {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    color: hsla(0,0%,100%,.6);
+    font-size: 100%;
+
+}
+
+.nav-white ul > li {
+    margin-left: 20px;
+}
+
+.nav-white ul > li a {
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 100%;
 }
