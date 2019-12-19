@@ -1,3 +1,4 @@
+/* Latest news */
 .l-news-float-container::after{
     content: "."; 
     visibility: hidden; 
@@ -84,3 +85,5 @@
     color:#aaa;
     font-family: Avalon,sans-serif;
 }
+
+/* Articles */
