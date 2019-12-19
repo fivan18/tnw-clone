@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TNW</title>
 
         <link rel="stylesheet" href="css/style.css">
@@ -27,7 +27,7 @@
                             <li><a href="">Spaces</a></li>
                             <li><a href="">Terms & Conditions</a></li>
                         </ul>
-                        <ul class="nav-float-right">
+                        <ul class="nav-float-right nav-black-right-hide">
                             <li><a href="">About</a></li>
                             <li><a href="">Team</a></li>
                             <li><a href="">Advertise</a></li>
@@ -36,13 +36,13 @@
                         </ul>
                     </div>
                     <div class="nav-float-container nav-white">
-                        <div class="nav-float-left nav-flex-container">
+                        <div class="nav-float-left nav-flex-container nav-center">
                             <div class="nav-logo-2 nav-flex-container nav-center">
                                 <a href="">
                                     <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
                                 </a>
                             </div>
-                            <ul class="nav-flex-container nav-center">
+                            <ul class="nav-white-left-hide">
                                 <li><a href="">LATEST</a></li>
                                 <li><a href="">HARD FORK</a></li>
                                 <li><a href="">PLUGGED</a></li>
@@ -67,7 +67,38 @@
             </div>
         </nav>
         <header></header>
-        <main></main>
+        <main>
+            <p style="font-size: 40px;">
+                    Aunque la frase no tiene sentido, tiene una larga historia. Durante varios siglos, los tipógrafos han utilizado esta frase para mostrar las características más distintivas de sus fuentes. Se utiliza porque las letras que contiene y el espaciado entre caracteres de esas combinaciones revelan de la mejor forma posible el espesor, el diseño y otras características importantes del tipo de letra.
+
+
+                    Un ejemplar de 1994 de la revista "Before & After" asocia "Lorem ipsum ..." a una versión latina revuelta de un pasaje de de Finibus Bonorum et Malorum, un tratado sobre la teoría de la ética escrito por Cicerón en el año 45 A.C. El pasaje "Lorem ipsum..." se ha extraído del texto que dice "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", que se traduciría como "No hay nadie que ame el dolor mismo, que lo busque y lo quiera tener, simplemente porque es el dolor...".
+                    
+                    
+                    Durante los años 1500, una imprenta adaptó el texto de Cicerón para elaborar una página de ejemplos de tipografía. Desde entonces, el texto en latín ha sido la norma del sector de la tipografía para simular texto. Antes de que existiera la publicación electrónica, los diseñadores gráficos tenían que simular diseños utilizando líneas ficticias para indicar texto. La llegada de hojas autoadhesivas preimpresas con "Lorem ipsum" ofreció una manera más realista de indicar dónde debería ir el texto en una página.
+                    Aunque la frase no tiene sentido, tiene una larga historia. Durante varios siglos, los tipógrafos han utilizado esta frase para mostrar las características más distintivas de sus fuentes. Se utiliza porque las letras que contiene y el espaciado entre caracteres de esas combinaciones revelan de la mejor forma posible el espesor, el diseño y otras características importantes del tipo de letra.
+
+
+                    Un ejemplar de 1994 de la revista "Before & After" asocia "Lorem ipsum ..." a una versión latina revuelta de un pasaje de de Finibus Bonorum et Malorum, un tratado sobre la teoría de la ética escrito por Cicerón en el año 45 A.C. El pasaje "Lorem ipsum..." se ha extraído del texto que dice "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", que se traduciría como "No hay nadie que ame el dolor mismo, que lo busque y lo quiera tener, simplemente porque es el dolor...".
+                    
+                    
+                    Durante los años 1500, una imprenta adaptó el texto de Cicerón para elaborar una página de ejemplos de tipografía. Desde entonces, el texto en latín ha sido la norma del sector de la tipografía para simular texto. Antes de que existiera la publicación electrónica, los diseñadores gráficos tenían que simular diseños utilizando líneas ficticias para indicar texto. La llegada de hojas autoadhesivas preimpresas con "Lorem ipsum" ofreció una manera más realista de indicar dónde debería ir el texto en una página.                    
+            </p>
+        </main>
         <footer></footer>
+        <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.querySelector(".nav-white");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+        </script>
     </body>
 </html>

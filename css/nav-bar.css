@@ -113,3 +113,14 @@ nav ul > li{
     color: #aaa;
     font-size: 100%;
 }
+
+.nav-white > div:first-child {
+    height: 48px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

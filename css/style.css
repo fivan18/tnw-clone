@@ -7,3 +7,68 @@ body {
 a {
     text-decoration: none;   
 }
+
+@media screen and (min-width: 1024px) {
+    .nav-logo-1 {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-logo-2 {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-container-toggle {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 923px) {
+    .nav-logo-2 {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-container-toggle {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
+@media screen and (max-width: 923px) and (min-width: 768px) {
+    .nav-logo-2 {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-container-toggle {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-black-right-hide {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;        
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-logo-1 {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-black {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .nav-white-left-hide {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;        
+    }
+}
+
