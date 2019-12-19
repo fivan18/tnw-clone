@@ -58,3 +58,17 @@ nav ul > li{
     width: 20px;
     margin-bottom: 4px;    
 }
+.nav-logo-1 img, .nav-logo-2 img {
+    width: 66px;
+    height: 16px;
+}
+.nav-logo-1 {
+    width: 106px;
+}
+.nav-logo-2 {
+    width: 106px;
+    height: 48px;
+}
+.nav-logo-1, .nav-logo-2 {
+    background-color: red;
+}
