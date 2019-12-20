@@ -36,6 +36,7 @@ a {
         top: -9999px;
         left: -9999px;
     }
+    
 }
 @media screen and (max-width: 923px) and (min-width: 768px) {
     .nav-logo-2 {

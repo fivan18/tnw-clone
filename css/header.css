@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 65vh;
+    padding: 4px;
+}
+
+.hard-fork {
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/santa-crypto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+/* .cover-trigger {
+    transition: background-color .4s ease;
+    background: rgba(0,0,0,.25) url(../img/image-gradient.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    will-change: background-color;
+    z-index: 2;
+} */
+
+.top-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 65%;
+}
+
+.cover-logo {
+    width: 50%;
+}
+
+.cover-date {
+    width: 30%;
+    color: #fff;
+}
+
+.cover-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.cover-section a, .cover-title a {
+    color: #fff;
+}
+
+.cover-title a {
+    font-weight: 800;
+    font-size: xxx-large;
+}
+
+.cover-byline, .ponzi-byline, .xmas-byline {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    color: hsla(0,0%,100%,.6);
+}
+
+.cover-byline li a, 
+.ponzi-byline li, 
+.ponzi-byline li a,
+.xmas-byline li, 
+.xmas-byline li a {
+    color: hsla(0,0%,100%,.6);
+}
+
+.right-article-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.ponzi, .xmas {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+    width: 100%;
+    height: 49.65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ponzi {
+    background-image: url(../img/crypto.png);
+    margin-bottom: 2.5px;
+}
+
+.ponzi-section, .xmas-section {
+    height: 20%;
+}
+
+.ponzi-title, .xmas-title {
+    height: 50%;
+}
+
+.ponzi-title a, .xmas-title a{
+    font-weight: 800;
+    font-size: xx-large;
+    color: #fff;
+}
+
+.ponzi-byline, .xmas-byline {
+    height: 20%;
+}
+
+.xmas {
+    background-image: url(../img/xmas.png);
+    margin-top: 2.5px;
+}
