@@ -40,6 +40,9 @@ main {
     .l-news-img-container .l-news-img {
         padding-top: 50%;
     }
+    .main-art-float-container .main-art-float-item {
+        width: 33.3%;
+    }
 }
 @media screen and (max-width: 1024px) and (min-width: 923px) {
     .nav-logo-2 {
@@ -63,6 +66,9 @@ main {
     }
     .l-news-img-container .l-news-img {
         padding-top: 50%;
+    }
+    .main-art-float-container .main-art-float-item {
+        width: 50%;
     }
 }
 @media screen and (max-width: 923px) and (min-width: 768px) {
@@ -92,6 +98,9 @@ main {
     }
     .l-news-img-container .l-news-img {
         padding-top: 50%;
+    }
+    .main-art-float-container .main-art-float-item {
+        width: 50%;
     }
 }
 @media screen and (max-width: 768px) {
