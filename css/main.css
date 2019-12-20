@@ -1,0 +1,89 @@
+/* Latest news */
+.l-news-float-container::after{
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+.l-news-float-item {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.l-news-img-container {
+    width: 75px;
+    height: 75px;
+}
+.l-news-img {
+    background-color: #000;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 75px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.l-new-i1 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i2 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i3 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i4 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i5 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i6 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i7 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+.l-new-i8 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-news > h2 a{
+    color: #f42;  
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: Avalon,sans-serif;
+    letter-spacing: -.015em;
+}
+.l-news > h2 a::after{
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23F42' stroke-width='3' stroke-miterlimit='10' d='M4.75 1.5l6.5 6.5-6.5 6.5'/></svg>");
+    background-size: 16px 16px;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-left: 4px;
+    position: relative;
+    top: 0;
+    width: 16px;
+}
+.l-news-text h3 {
+    font-weight: bold;
+    font-family: Avalon,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.l-news-text > a{
+    font-size: 100%;
+    color:#aaa;
+    font-family: Avalon,sans-serif;
+}
+
+/* Articles */
