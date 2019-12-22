@@ -81,6 +81,7 @@ main {
         top: -9999px;
         left: -9999px;        
     }
+
     /* main section */
     .l-news-float-container .l-news-float-item {
         width: 33.3%;
@@ -109,6 +110,24 @@ main {
         position: absolute;
         top: -9999px;
         left: -9999px;        
+    }
+
+    /* header section */
+    header {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+    .hard-fork {
+        width: 100%;
+    }
+    .right-article-container {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+    .ponzi, .xmas {
+        width:100%;
     }
 }
 

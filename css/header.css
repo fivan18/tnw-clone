@@ -8,24 +8,51 @@ header {
 }
 
 .hard-fork {
-    width: 65%;
+    width: 70%;
     height: 100%;
-    background-image: url(../img/santa-crypto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 20px;
     margin-right: 5px;
     box-sizing: border-box;
+    position: relative;
 }
 
-/* .cover-trigger {
+.cover-image {
+    background-image: url(../img/santa-crypto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-trigger {
     transition: background-color .4s ease;
-    background: rgba(0,0,0,.25) url(../img/image-gradient.png) no-repeat;
+    background: rgba(0,0,0,.25) url(../img/image-gradient.png);
+    background-repeat:  no-repeat;
+    position: absolute;
     background-size: 100% 100%;
     display: block;
     will-change: background-color;
     z-index: 2;
-} */
+    bottom: 4px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 100%;
+}
+
+.cover-gradient {
+    background: transparent url(../img/cover-gradient.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4
+}
 
 .top-row {
     display: flex;
