@@ -1,7 +1,10 @@
+.nav {
+    z-index: 99;
+    position: fixed;
+}
 .nav-flex-container {
     display: flex;
     flex-flow: row nowrap;
-
 }
 .nav-center {
     justify-content: center;
