@@ -1,0 +1,262 @@
+.row::after{
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.col-1 {
+    float: left;
+    width: 8.33%;
+}
+.col-2 {
+    float: left;
+    width: 16.66%;
+}
+.col-3 {
+    float: left;
+    width: 25%;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+.col-5 {
+    float: left;
+    width: 41.66%;
+}
+.col-6 {
+    float: left;
+    width: 50%;
+}
+.col-7 {
+    float: left;
+    width: 58.33%;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
+}
+.col-9 {
+    float: left;
+    width: 75%;
+}
+.col-10 {
+    float: left;
+    width: 83.33%;
+}
+.col-11 {
+    float: left;
+    width: 91.66%;
+}
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .col-576-1 {
+        float: left;
+        width: 8.33%;
+    }
+    .col-576-2 {
+        float: left;
+        width: 16.66%;
+    }
+    .col-576-3 {
+        float: left;
+        width: 25%;
+    }
+    .col-576-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .col-576-5 {
+        float: left;
+        width: 41.66%;
+    }
+    .col-576-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-576-7 {
+        float: left;
+        width: 58.33%;
+    }
+    .col-576-8 {
+        float: left;
+        width: 66.66%;
+    }
+    .col-576-9 {
+        float: left;
+        width: 75%;
+    }
+    .col-576-10 {
+        float: left;
+        width: 83.33%;
+    }
+    .col-576-11 {
+        float: left;
+        width: 91.66%;
+    }
+    .col-576-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-768-1 {
+        float: left;
+        width: 8.33%;
+    }
+    .col-768-2 {
+        float: left;
+        width: 16.66%;
+    }
+    .col-768-3 {
+        float: left;
+        width: 25%;
+    }
+    .col-768-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .col-768-5 {
+        float: left;
+        width: 41.66%;
+    }
+    .col-768-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-768-7 {
+        float: left;
+        width: 58.33%;
+    }
+    .col-768-8 {
+        float: left;
+        width: 66.66%;
+    }
+    .col-768-9 {
+        float: left;
+        width: 75%;
+    }
+    .col-768-10 {
+        float: left;
+        width: 83.33%;
+    }
+    .col-768-11 {
+        float: left;
+        width: 91.66%;
+    }
+    .col-768-12 {
+        float: left;
+        width: 100%;
+    }    
+}
+
+@media screen and (min-width: 992px){
+    .col-992-1 {
+        float: left;
+        width: 8.33%;
+    }
+    .col-992-2 {
+        float: left;
+        width: 16.66%;
+    }
+    .col-992-3 {
+        float: left;
+        width: 25%;
+    }
+    .col-992-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .col-992-5 {
+        float: left;
+        width: 41.66%;
+    }
+    .col-992-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-992-7 {
+        float: left;
+        width: 58.33%;
+    }
+    .col-992-8 {
+        float: left;
+        width: 66.66%;
+    }
+    .col-992-9 {
+        float: left;
+        width: 75%;
+    }
+    .col-992-10 {
+        float: left;
+        width: 83.33%;
+    }
+    .col-992-11 {
+        float: left;
+        width: 91.66%;
+    }
+    .col-992-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .col-1200-1 {
+        float: left;
+        width: 8.33%;
+    }
+    .col-1200-2 {
+        float: left;
+        width: 16.66%;
+    }
+    .col-1200-3 {
+        float: left;
+        width: 25%;
+    }
+    .col-1200-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .col-1200-5 {
+        float: left;
+        width: 41.66%;
+    }
+    .col-1200-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-1200-7 {
+        float: left;
+        width: 58.33%;
+    }
+    .col-1200-8 {
+        float: left;
+        width: 66.66%;
+    }
+    .col-1200-9 {
+        float: left;
+        width: 75%;
+    }
+    .col-1200-10 {
+        float: left;
+        width: 83.33%;
+    }
+    .col-1200-11 {
+        float: left;
+        width: 91.66%;
+    }
+    .col-1200-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+
