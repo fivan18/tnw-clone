@@ -92,19 +92,10 @@
 
 /* Articles */
 .main-art-float-container::after{
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
 }
 .main-art-float-item {
-    float: left;
-    width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    box-sizing: border-box;
-    padding: 20px;
 }
 .main-art-img-container {
     height: 0;
