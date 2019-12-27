@@ -12,6 +12,16 @@ main {
     margin: 0 auto;
 }
 
+.d-f {
+    display: flex;
+}
+.f-nowrap {
+    flex-wrap: nowrap;
+}
+.f-column {
+    flex-direction: column;
+}
+
 @media screen and (min-width: 1024px) {
     .nav-logo-1 {
         position: absolute;

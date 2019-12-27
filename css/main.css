@@ -91,10 +91,6 @@
 }
 
 /* Articles */
-.main-art-float-item {
-    display: flex;
-    flex-flow: column nowrap;
-}
 .main-art-img-container {
     height: 0;
     padding-top: 75%;
