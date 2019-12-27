@@ -125,6 +125,19 @@
 }
 
 /* Margin */
+.m-top-0 {
+    margin-top: 0px;
+}
+.m-bottom-0 {
+    margin-bottom: 0px;
+}
+.m-left-0 {
+    margin-left: 0px;
+}
+.m-right-0 {
+    margin-right: 0px;
+}
+
 .m-top-10 {
     margin-top: 10px;
 }
@@ -217,6 +230,10 @@
 .h-auto {
     height: auto !important;
 }
+.w-200px {
+    width: 200px !important;
+}
+
 @media screen and (min-width: 576px) {
     .col-576-1 {
         float: left;
@@ -336,6 +353,19 @@
         padding-right: 20px;
     }
     /* Margin */
+    .m-top-576-0 {
+        margin-top: 0px;
+    }
+    .m-bottom-576-0 {
+        margin-bottom: 0px;
+    }
+    .m-left-576-0 {
+        margin-left: 0px;
+    }
+    .m-right-576-0 {
+        margin-right: 0px;
+    }
+
     .m-top-576-10 {
         margin-top: 10px;
     }
@@ -427,6 +457,9 @@
     }
     .h-576-auto {
         height: auto !important;
+    }    
+    .w-576-200px {
+        width: 200px !important;
     }    
 }
 
@@ -550,6 +583,19 @@
     }    
 
     /* Margin */
+    .m-top-768-0 {
+        margin-top: 0px;
+    }
+    .m-bottom-768-0 {
+        margin-bottom: 0px;
+    }
+    .m-left-768-0 {
+        margin-left: 0px;
+    }
+    .m-right-768-0 {
+        margin-right: 0px;
+    }
+
     .m-top-768-10 {
         margin-top: 10px;
     }
@@ -642,6 +688,9 @@
     .h-768-auto {
         height: auto !important;
     }    
+    .w-768-200px {
+        width: 200px !important;
+    }  
 }
 
 @media screen and (min-width: 992px){
@@ -764,6 +813,19 @@
     }    
 
     /* Margin */
+    .m-top-992-0 {
+        margin-top: 0px;
+    }
+    .m-bottom-992-0 {
+        margin-bottom: 0px;
+    }
+    .m-left-992-0 {
+        margin-left: 0px;
+    }
+    .m-right-992-0 {
+        margin-right: 0px;
+    }
+
     .m-top-992-10 {
         margin-top: 10px;
     }
@@ -856,6 +918,9 @@
     .h-992-auto {
         height: auto !important;
     }    
+    .w-992-200px {
+        width: 200px !important;
+    }  
 }
 
 @media screen and (min-width: 1200px) {
@@ -978,6 +1043,19 @@
     }  
 
     /* Margin */
+    .m-top-1200-0 {
+        margin-top: 0px;
+    }
+    .m-bottom-1200-0 {
+        margin-bottom: 0px;
+    }
+    .m-left-1200-0 {
+        margin-left: 0px;
+    }
+    .m-right-1200-0 {
+        margin-right: 0px;
+    }
+
     .m-top-1200-10 {
         margin-top: 10px;
     }
@@ -1070,6 +1148,9 @@
     .h-1200-auto {
         height: auto !important;
     }    
+    .w-1200-200px {
+        width: 200px !important;
+    }  
 }
 
 
