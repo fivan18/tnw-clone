@@ -2,14 +2,6 @@
 .l-news {
     margin-bottom: 4em;
 }
-
-.l-news-float-container::after{
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
-}
 .l-news-float-item {
     float: left;
     width: 100%;
