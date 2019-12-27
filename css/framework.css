@@ -206,6 +206,9 @@
 .f-column {
     flex-direction: column;
 }
+.f-justify-space-between {
+    justify-content: space-between;
+}
 
 /* width and height */
 .w-100 {
@@ -413,7 +416,10 @@
     }
     .f-576-column {
         flex-direction: column;
-    }    
+    }  
+    .f-576-justify-space-between {
+        justify-content: space-between;
+    }      
 
     /* width and height */
     .w-576-100 {
@@ -625,6 +631,9 @@
     .f-768-column {
         flex-direction: column;
     }
+    .f-768-justify-space-between {
+        justify-content: space-between;
+    }     
 
     /* width and height */
     .w-768-100 {
@@ -835,7 +844,10 @@
     }
     .f-992-column {
         flex-direction: column;
-    }    
+    }   
+    .f-992-justify-space-between {
+        justify-content: space-between;
+    }      
 
     /* width and height */
     .w-992-100 {
@@ -1047,6 +1059,9 @@
     .f-1200-column {
         flex-direction: column;
     }    
+    .f-1200-justify-space-between {
+        justify-content: space-between;
+    }     
 
     /* width and height */
     .w-1200-100 {
