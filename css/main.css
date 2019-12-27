@@ -91,8 +91,6 @@
 }
 
 /* Articles */
-.main-art-float-container::after{
-}
 .main-art-float-item {
     display: flex;
     flex-flow: column nowrap;
@@ -242,7 +240,7 @@
     top: 13px;
     width: 4px;
 }
-.main-art-float-container > article > h3 a{
+.title-article {
     color: #f42;  
     font-size: 25px;
     font-weight: 700;
@@ -250,7 +248,7 @@
     font-family: Avalon,sans-serif;
     letter-spacing: -.015em;
 }
-.main-art-float-container > article > h3 a::after{
+.title-article::after{
     background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23F42' stroke-width='3' stroke-miterlimit='10' d='M4.75 1.5l6.5 6.5-6.5 6.5'/></svg>");
     background-size: 16px 16px;
     content: "";
