@@ -11,6 +11,10 @@ main {
     max-width: 1192px;
     margin: 0 auto;
 }
+.well {
+    border: 1px solid black;
+    min-height: 300px;
+}
 
 @media screen and (min-width: 1024px) {
     .nav-logo-1 {
@@ -86,24 +90,6 @@ main {
         position: absolute;
         top: -9999px;
         left: -9999px;        
-    }
-
-    /* header section */
-    header {
-        display: flex;
-        flex-flow: column wrap;
-        width: 100%;
-    }
-    .hard-fork {
-        width: 100%;
-    }
-    .right-article-container {
-        display: flex;
-        flex-flow: column wrap;
-        width: 100%;
-    }
-    .ponzi, .xmas {
-        width:100%;
     }
 }
 

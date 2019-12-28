@@ -56,6 +56,23 @@
 }
 
 /* Padding */
+.p-top-0 {
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+.p-bottom-0 {
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+.p-left-0 {
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.p-right-0 {
+    box-sizing: border-box;
+    padding-right: 0px;
+}
+
 .p-top-5 {
     box-sizing: border-box;
     padding-top: 5px;
@@ -285,6 +302,23 @@
     }
 
     /* Padding */
+    .p-top-576-0 {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+    .p-bottom-576-0 {
+        box-sizing: border-box;
+        padding-bottom: 0px;
+    }
+    .p-left-576-0 {
+        box-sizing: border-box;
+        padding-left: 0px;
+    }
+    .p-right-576-0 {
+        box-sizing: border-box;
+        padding-right: 0px;
+    }
+
     .p-top-576-5 {
         box-sizing: border-box;
         padding-top: 5px;
@@ -514,6 +548,23 @@
     }    
 
     /* Padding */
+    .p-top-768-0 {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+    .p-bottom-768-0 {
+        box-sizing: border-box;
+        padding-bottom: 0px;
+    }
+    .p-left-768-0 {
+        box-sizing: border-box;
+        padding-left: 0px;
+    }
+    .p-right-768-0 {
+        box-sizing: border-box;
+        padding-right: 0px;
+    }
+
     .p-top-768-5 {
         box-sizing: border-box;
         padding-top: 5px;
@@ -744,6 +795,23 @@
     }
 
     /* Padding */
+    .p-top-992-0 {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+    .p-bottom-992-0 {
+        box-sizing: border-box;
+        padding-bottom: 0px;
+    }
+    .p-left-992-0 {
+        box-sizing: border-box;
+        padding-left: 0px;
+    }
+    .p-right-992-0 {
+        box-sizing: border-box;
+        padding-right: 0px;
+    }
+
     .p-top-992-5 {
         box-sizing: border-box;
         padding-top: 5px;
@@ -974,6 +1042,23 @@
     }
 
     /* Padding */
+    .p-top-1200-0 {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+    .p-bottom-1200-0 {
+        box-sizing: border-box;
+        padding-bottom: 0px;
+    }
+    .p-left-1200-0 {
+        box-sizing: border-box;
+        padding-left: 0px;
+    }
+    .p-right-1200-0 {
+        box-sizing: border-box;
+        padding-right: 0px;
+    }
+
     .p-top-1200-5 {
         box-sizing: border-box;
         padding-top: 5px;
