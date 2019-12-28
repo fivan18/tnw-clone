@@ -1,4 +1,4 @@
-.cover {
+.cover, .cover-2 {
     height: 75vh;
     max-height: 560px;
 }
@@ -8,7 +8,7 @@
 }
 .cover-story-2 {
     position: relative;
-    height: 47.25%;
+    height: 50%;
 }
 .cover-image {
     bottom: 4px;
