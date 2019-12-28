@@ -141,6 +141,40 @@
     padding-right: 20px;
 }
 
+.p-top-25 {
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.p-bottom-25 {
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+.p-left-25 {
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.p-right-25 {
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.p-top-30 {
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.p-bottom-30 {
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.p-left-30 {
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.p-right-30 {
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
 /* Margin */
 .m-top-0 {
     margin-top: 0px;
@@ -386,6 +420,41 @@
         box-sizing: border-box;
         padding-right: 20px;
     }
+
+    .p-top-576-25 {
+        padding-top: 25px;
+        box-sizing: border-box;
+    }
+    .p-bottom-576-25 {
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    .p-left-576-25 {
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .p-right-576-25 {
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+    
+    .p-top-576-30 {
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .p-bottom-576-30 {
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+    .p-left-576-30 {
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .p-right-576-30 {
+        box-sizing: border-box;
+        padding-right: 30px;
+    }
+
     /* Margin */
     .m-top-576-0 {
         margin-top: 0px;
@@ -631,6 +700,40 @@
     .p-right-768-20 {
         box-sizing: border-box;
         padding-right: 20px;
+    }    
+
+    .p-top-768-25 {
+        padding-top: 25px;
+        box-sizing: border-box;
+    }
+    .p-bottom-768-25 {
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    .p-left-768-25 {
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .p-right-768-25 {
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+    
+    .p-top-768-30 {
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .p-bottom-768-30 {
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+    .p-left-768-30 {
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .p-right-768-30 {
+        box-sizing: border-box;
+        padding-right: 30px;
     }    
 
     /* Margin */
@@ -879,6 +982,39 @@
         box-sizing: border-box;
         padding-right: 20px;
     }    
+    .p-top-992-25 {
+        padding-top: 25px;
+        box-sizing: border-box;
+    }
+    .p-bottom-992-25 {
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    .p-left-992-25 {
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .p-right-992-25 {
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+    
+    .p-top-992-30 {
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .p-bottom-992-30 {
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+    .p-left-992-30 {
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .p-right-992-30 {
+        box-sizing: border-box;
+        padding-right: 30px;
+    }   
 
     /* Margin */
     .m-top-992-0 {
@@ -1126,6 +1262,40 @@
         box-sizing: border-box;
         padding-right: 20px;
     }  
+
+    .p-top-1200-25 {
+        padding-top: 25px;
+        box-sizing: border-box;
+    }
+    .p-bottom-1200-25 {
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    .p-left-1200-25 {
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .p-right-1200-25 {
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+    
+    .p-top-1200-30 {
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .p-bottom-1200-30 {
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+    .p-left-1200-30 {
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .p-right-1200-30 {
+        box-sizing: border-box;
+        padding-right: 30px;
+    }   
 
     /* Margin */
     .m-top-1200-0 {
