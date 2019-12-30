@@ -1,155 +1,117 @@
-.latest-funding {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 400px;
-    padding: 0;
-    margin-bottom: 4em;
-}
-
-.lf-header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    box-sizing: border-box;
-    height: 15%;
-    padding: 12px;
-}
-
-.lf-header > h2 a{
-    color: #f42;  
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.1;
-    font-family: Avalon,sans-serif;
-    letter-spacing: -.015em;
-}
-
-.header-menu {
-    display: flex;
-    flex-flow: row nowrap;
+.lf-header > h2 a {
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
 }
 
 .header-menu > li a {
-    color: #f42;
-    font-size: 18px;
-    line-height: 1.1;
-    font-family: Avalon,sans-serif;
-    text-decoration: none;
-}
-
-.article-listing {
-    display: flex;
-    flex-flow: row wrap;
-    height: 85%;
-}
-
-.article-listing [class$="outer"] {
-    box-sizing: border-box;
-    padding: 12px;
-    width: 25%;
-    height: 100%;
+  color: #f42;
+  font-size: 18px;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
 }
 
 .story {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    background: #fffaf8;
-    height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background: #fffaf8;
+  height: 100%;
 }
 
-.story-top-1, .story-card, .story-byline {
-    height: 33.3333%;
+.story-top-1,
+.story-card,
+.story-byline {
+  height: 33.3333%;
 }
 
 .story-top-1 {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    flex: 0;
-    position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  flex: 0;
+  position: relative;
 }
 
 .story-investor-image {
-    width: 70px;
-    min-width: 70px;
-    max-width: 70px;
-    height: 70px;
-    min-height: 70px;
-    max-height: 70px;
-    margin: 10.6666666667px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+  height: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .story-investor {
-    background: #f42;
-    color: #fff;
-    height: 65%;
-    padding: 10.6666666667px 16px 10.6666666667px 90px;
-    margin: 0!important;
-    font-size: 18px!important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  background: #f42;
+  color: #fff;
+  height: 65%;
+  padding: 10.6666666667px 16px 10.6666666667px 90px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .story-investor-deets {
-    width: 62%;
-    height: 35%;
-    padding: 10.6666666667px 16px 10.6666666667px 90px;
-    color: #000;
-    background: rgba(255,68,34,.08);
-    margin: 0;
+  padding: 10.6666666667px 16px 10.6666666667px 90px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
 }
 
 .story-investor-deets h4 {
-    color: black;
+  color: black;
 }
 
 .story-investor-deets h5 {
-    font-family: Shentox,sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    color: #000;
-    opacity: .5;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    line-height: 1.5;
-    letter-spacing: 0em;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+  opacity: 0.5;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0;
 }
 
 .story-card {
-    border-bottom: 1px solid orange;
-    padding: 12px;
+  border-bottom: 1px solid orange;
+  padding: 12px;
 }
 
 .fas {
-    color: black;
+  color: black;
 }
 
-.story-card a span{
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
+.story-card a span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
 }
 
 .story-byline {
-    padding: 12px;
-    line-height: 1.5;
+  padding: 12px;
+  line-height: 1.5;
 }
 
 .story-title {
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
 }
 
 .story-title-source {
-    color: #aaa;
-    font-weight: 200;
+  color: #aaa;
+  font-weight: 200;
 }
