@@ -1,0 +1,149 @@
+.nav {
+  z-index: 99;
+  position: fixed;
+}
+
+.nav-flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-float-container::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.nav-float-left {
+  float: left;
+}
+
+.nav-float-right {
+  float: right;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul > li {
+  display: inline-block;
+}
+
+.nav-bars-container {
+  width: 100%;
+}
+
+/* Black nav bar */
+.nav-black {
+  background-color: black;
+  max-height: 32px;
+  line-height: 32px;
+}
+
+/* White nav bar */
+.nav-white {
+  line-height: 1.5;
+  background-color: white;
+}
+
+.nav-white-right-flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav-search-icon {
+  display: inline-block;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
+  background-size: 1296px 1296px;
+  background-position: -848px -848px;
+  width: 16px;
+  height: 16px;
+}
+
+.nav-toggle span {
+  background-color: #f42;
+  display: block;
+  height: 2px;
+  width: 20px;
+  margin-bottom: 4px;
+}
+
+.nav-logo-1 img,
+.nav-logo-2 img {
+  width: 66px;
+  height: 16px;
+}
+
+.nav-logo-1 {
+  width: 106px;
+}
+
+.nav-logo-2 {
+  width: 106px;
+  height: 48px;
+}
+
+.nav-logo-1,
+.nav-logo-2 {
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+.nav-size-icons {
+  width: 48px;
+  height: 48px;
+  border-left: 1px solid #eee;
+}
+
+.nav-black li {
+  margin-left: 10px;
+}
+
+.nav-white ul > li {
+  margin-left: 20px;
+}
+
+.nav-black > ul:first-child > li:first-child {
+  margin-left: 30px;
+}
+
+.nav-black a {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 100%;
+}
+
+.nav-white ul > li a {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 100%;
+}
+
+.nav-black > ul:first-child > li:first-child a {
+  color: white;
+}
+
+.nav-black > ul:last-child > li:last-child {
+  margin-right: 20px;
+}
+
+.nav-white > div:first-child {
+  height: 48px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+}

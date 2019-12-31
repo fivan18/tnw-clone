@@ -1,0 +1,165 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: rgb(250, 238, 238);
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+.well {
+  border: 1px solid black;
+  min-height: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  /* Nav bar */
+  .nav-logo-1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-logo-2 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-container-toggle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* main section */
+  .l-news-img-container .l-news-img {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 923px) {
+  /* Nav bar */
+  .nav-logo-2 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-container-toggle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* Header */
+  .cover-logo,
+  .cover-gradient,
+  .cover-story .cover-date {
+    display: none;
+  }
+
+  .row .cover,
+  .row .cover-2 {
+    height: 40vh;
+    max-height: 400px;
+  }
+
+  /* main section */
+  .l-news-img-container .l-news-img {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (max-width: 923px) and (min-width: 720px) {
+  /* Nav bar */
+  .nav-logo-2 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-container-toggle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-black-right-hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* Header */
+  .cover-logo,
+  .cover-gradient,
+  .cover-story .cover-date {
+    display: none;
+  }
+
+  .row .cover,
+  .row .cover-2 {
+    height: 40vh;
+    max-height: 400px;
+  }
+
+  /* main section */
+  .l-news-img-container .l-news-img {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* Nav bar */
+  .nav-logo-1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-black {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .nav-white-left-hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* Header */
+  .cover-logo,
+  .cover-gradient,
+  .cover-story .cover-date {
+    display: none;
+  }
+
+  .row .cover {
+    height: 20vh;
+    max-height: 200px;
+  }
+
+  .row .cover-2 {
+    height: 40vh;
+    max-height: 400px;
+  }
+
+  .cover-header .cover-title {
+    font-size: 18px;
+  }
+}
+
+.clear-both {
+  clear: both;
+}

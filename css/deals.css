@@ -1,0 +1,77 @@
+.ld-story-title a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Avalon, sans-serif;
+}
+
+.ld-header > h2 a {
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.ld-header-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  color: #f42;
+  font-size: 18px;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
+}
+
+.ld-story-image {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.story-deal-discount {
+  background-image: url(../img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 1000;
+}
+
+.story-deal-discount div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Avalon, sans-serif;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+.ld-story-title {
+  margin-bottom: 10px;
+}
+
+.story-deal-price-old {
+  font-size: 13px;
+  color: #555;
+  text-decoration: line-through;
+  font-family: Avalon, sans-serif;
+}
+
+.story-deal-price-new {
+  font-size: 16px;
+  color: #555;
+  font-family: Avalon, sans-serif;
+}

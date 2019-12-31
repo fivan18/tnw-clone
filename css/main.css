@@ -1,0 +1,287 @@
+/* Latest news */
+.l-news {
+  margin-bottom: 4em;
+}
+
+.l-news-float-item {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.l-news-img-container {
+  width: 75px;
+  height: 75px;
+}
+
+.l-news-img {
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 75px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.l-new-i1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-new-i8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/sale_23425_primary_image_wide-540x270.jpg");
+}
+
+.l-news-text > a {
+  font-size: 100%;
+  color: #aaa;
+  font-family: Avalon, sans-serif;
+}
+
+.l-news > h2 a {
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.l-news > h2 a::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23F42' stroke-width='3' stroke-miterlimit='10' d='M4.75 1.5l6.5 6.5-6.5 6.5'/></svg>");
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
+
+.l-news-text h3 {
+  font-weight: bold;
+  font-family: Avalon, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Articles */
+.main-art-img-container {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.main-art-i1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+}
+
+.main-art-img {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main-art-gradient {
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.main-art-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  color: white;
+}
+
+.main-art-header h5 {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 13px;
+}
+
+.main-art-header h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+  margin: 6px 0;
+}
+
+.main-art-header span {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.main-art2-img-container {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+
+.main-art2-i1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-i8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/santa-crypto-giftguide-cryptocurrency-bitocin-blockchain-hard-fork-winter-presents-holiday.jpg);
+}
+
+.main-art2-img {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.main-art2-header {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.main-art2-header h5 {
+  color: #f42;
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.main-art2-header h4 {
+  color: #f42;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.main-art-border {
+  border-bottom: 1px solid #eee;
+}
+
+.main-art-a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+.main-art-a::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.title-article {
+  color: #f42;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.title-article::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23F42' stroke-width='3' stroke-miterlimit='10' d='M4.75 1.5l6.5 6.5-6.5 6.5'/></svg>");
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
