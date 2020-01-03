@@ -984,6 +984,7 @@
                 </div>
             </div>
         </footer>
+        <script src="script/script.js"></script>
         <script>
             // Sticky nav bar
             window.onscroll = function() {myFunction()};
@@ -1000,33 +1001,13 @@
             }
 
             // Resize 
-            window.addEventListener("resize", clearItem);
-            function clearItem() {
-                let size = window.innerWidth;
-                let col_720_4 = Array.from(document.querySelectorAll(
-                    ".row .col-720-4:nth-child(4), .row .col-720-4:nth-child(7)"));
-                let col_1024_3 = Array.from(document.querySelectorAll(
-                    ".row .col-1024-3:nth-child(5), .row .col-1024-3:nth-child(9)"));
-                if(size >= 720 && size < 1024) {
-                    col_720_4.forEach(element => {
-                        element.classList.add("clear-both");
-                    });
-                } else {
-                    col_720_4.forEach(element => {
-                        element.classList.remove("clear-both");
-                    });
-                }
-                if(size >= 1024 && size < 1200) {
-                    col_1024_3.forEach(element => {
-                        element.classList.add("clear-both");
-                    });
-                } else {
-                    col_1024_3.forEach(element => {
-                        element.classList.remove("clear-both");
-                    });
-                }
+            function resize() {
+                // The order is important
+                clearItems("col-720-4", 8);
+                clearItems("col-1024-3", 8);
             }
-            clearItem();
+            window.addEventListener("resize", resize);
+            resize();
         </script>
     </body>
 </html>
