@@ -1031,10 +1031,6 @@
   .d-720-block {
     display: block !important;
   }
-
-  .w-720-100 {
-    width: 100% !important;
-  }
 }
 
 @media screen and (min-width: 1024px) {
