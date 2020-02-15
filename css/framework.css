@@ -343,6 +343,15 @@
   width: 200px !important;
 }
 
+.w-75px {
+  width: 75px !important;
+}
+
+/* display */
+.d-none {
+  display: none !important;
+}
+
 @media screen and (min-width: 576px) {
   .col-576-1 {
     float: left;
@@ -1016,6 +1025,15 @@
 
   .w-720-200px {
     width: 200px !important;
+  }
+
+  /* display */
+  .d-720-block {
+    display: block !important;
+  }
+
+  .w-720-100 {
+    width: 100% !important;
   }
 }
 
