@@ -1,6 +1,6 @@
 # TNW clone
 
-> A clone of the [TNW](https://thenextweb.com/) page.
+> A [TNW](https://thenextweb.com/) page clone.
 
 
 ### 1800px 
@@ -20,13 +20,13 @@
     <img src="screenshots/tnw-3.PNG">
 </p>
 
-This project consisted of building the [Newsweek](https://www.newsweek.com/) webpage using  a self building grid-base framework  (framework.css) to make it responsive. The framework's grid system uses rows and columns to layout content, it’s built with float technique and uses media queries to gracefully degrade their site as the window size is reduced.
+This project consisted of building the [TNW](https://thenextweb.com/) webpage using  a self building grid-based [framework](css/framework.css) to make it responsive. The framework's grid system uses rows and columns to layout content, it’s built with float technique and uses media queries to gracefully degrade the page as the window size is reduced. You can see a really good explanation of how the [grid-based framework](https://github.com/fivan18/grid-based-framework) was built [here](https://dev.to/fivan18/how-to-build-a-grid-based-framework-using-the-float-property-2chf).
 
 ## Built With
 
 - HTML
 - CSS
-- Self building grid-base framework  (framework.css)
+- Self building grid-base [framework](css/framework.css)
 
 ## Live Demo
 
@@ -35,7 +35,7 @@ This project consisted of building the [Newsweek](https://www.newsweek.com/) web
 
 ## Getting Started
 
-**Download this project and use your favorite web brower to open the index.html to see how it looks like.**
+Download this project and use your favorite web brower to open the index.html to see how it looks like.
 
 ## Authors
 
